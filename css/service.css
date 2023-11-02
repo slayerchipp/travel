@@ -1,0 +1,60 @@
+.service-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.service-box-single-item{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+.service-box-single-item:nth-child(1){
+    background-image: url("../img/service/adventure.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.service-box-single-item:nth-child(2){
+    background-image: url("../img/service/hiking.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.service-box-single-item:nth-child(3){
+    background-image: url("../img/service/offroad.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.service-box-single-item:nth-child(4){
+    background-image: url("../img/service/guide.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.service-box-single-item:nth-child(5){
+    background-image: url("../img/service/camping.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.service-heading{
+    text-align: center;
+    color: #fff;
+    line-height: 28px;
+    font-family: cursive;
+
+}
+.service-title{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: cursive;
+
+}
+.service-title:hover{
+    background-color: rgb(0, 0, 0);
+}

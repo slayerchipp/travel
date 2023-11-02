@@ -1,0 +1,126 @@
+.my-profile-png{
+    width: 70px;
+} 
+.profile-container{
+    display: flex;
+    justify-content: left;
+    background-color: rgba(0, 0, 0, 0.169);
+    width: 600px;
+    border-radius: 20px;
+}
+.profile-title{
+    font-family: cursive;
+    color: #fff;
+
+}
+.attribute-of-profile{
+    font-family: cursive;
+}
+.box-1{
+    padding: 0px 20px 20px;
+   /* margin-top: 10px; */
+}
+.box-1-dp{
+    margin-top: 23px;
+}
+.update-profile-button{
+    margin-top: 32px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: rgb(231, 177, 77);
+    color: #fff;
+}
+.profile-button-delete{
+    margin-top: 32px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(236, 77, 77);
+    border-radius: 10px;
+    color: #fff;
+}
+.profile-button-delete:hover{
+    background-color: #ea1010;
+    cursor: pointer;
+    font-family: cursive;
+    color: #fff;
+    font-weight: 400;
+}
+.update-profile-button:hover{
+    background-color:orange;
+    cursor: pointer;
+    font-family: cursive;
+    color: #fff;
+    font-weight: 400;
+}
+.booking-container{
+    display: flex;
+    height: 300px;
+    background-image: url("../img/hotel.jpg");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.search-area{
+    padding: 10px 10px 10px 10px;
+    margin-top: 50%;
+    margin-left: 20px;
+    background-color: #ffffffc7;
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+}
+.submit-search-box{
+    padding: 10px 25px 10px 25px;
+    margin-top: 64%;
+    margin-left: 20px;
+    background-color: rgb(215, 151, 33);
+    border-radius: 10px;
+    color: #fff;
+    outline-color: #fff;
+    
+  }
+  .submit-search-box:hover{
+   background-color: orange;
+   color: #fff;
+   font-weight: 600;   
+  }
+  .para-box-booking{
+    color: #fff;
+    font-weight: 400;
+    font-family: cursive;
+
+  }
+  .collection-of-booking-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .box-container-collection{
+    border:1px solid rgb(255, 252, 252);
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    padding: 0px 20px 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: #fff;
+
+  }
+  .box-container-collection:hover{
+   background-color: rgb(254, 176, 31);
+   color: #fff;
+  }
+  .img-collection-png{
+    margin: 14px 10px 15px 22px;
+  }
+  .img-collection-tittle{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -7px;
+    font-family: cursive;
+  }
+  .img-collection-tittle:hover{
+    color: #fff;
+  }
